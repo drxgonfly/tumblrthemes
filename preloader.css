@@ -75,3 +75,7 @@
         transform: rotate(360deg);
     }
 }
+#preloader {background-color:var(--pagebackground);}
+#loader {border-top-color: var(--linkcolor);}
+#loader:before {border-top-color: var(--linkcolor);}
+#loader:after {border-top-color: var(--linkcolor);}
